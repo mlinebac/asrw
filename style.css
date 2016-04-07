@@ -1,0 +1,70 @@
+body {
+    background-color:cyan;
+    background-size:contain;
+}
+
+div.container {
+    background-color:antiquewhite;
+    margin-bottom:15%;
+    margin-top:8%;
+    border-style: solid;
+    box-shadow: 10px 10px 10px grey;
+    border-width:0px ;
+}
+
+h1 {
+
+    text-align:center;
+    font-family:fantasy;
+    font-size: 110px;
+    letter-spacing: 5px;
+    color: dimgrey;
+}
+
+h2 {
+    margin-left: 10%;
+    text-align:center;
+    font-family:fantasy;
+    font-style: oblique;
+    color:dimgrey;
+}
+
+.img-rounded {
+    margin-top: -3%;
+    margin-left: 4%;
+    box-shadow: 5px 5px 5px grey;
+}
+
+div.info {
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+div.body {
+    background-color:#4dff4d;
+    background: linear-gradient(#00ff00, #4dff4d);
+    margin-top:-5%;
+}
+
+p {
+    padding-top:2%;
+    padding-bottom:2%;
+    margin:10%;
+    color: white ;
+    line-height: 1.5;
+    font-size:20px;
+}
+
+div.fb-page {
+    margin-left:12%;
+}
+div.fb-like{
+    text-align: left;
+
+}
+footer {
+    background-color:darkgrey;
+    padding-top:100px;
+    margin-top:10%;
+    margin-bottom:10px;
+    padding-bottom:10px;
