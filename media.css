@@ -31,8 +31,10 @@ div.info {
     margin-left: 25%;
     margin-top: 10%;
 }
-div.embed-responsive embed-responsive-4by3{
-    margin-top:5%;
+.tip-video{
+    margin-left:22%;
+    margin-bottom:5%;
+    position:relative;
 }
 div.list-group{
     margin-top:5%;
@@ -52,6 +54,15 @@ p {
     color: white ;
     line-height: 1.5;
     font-size:20px;
+}
+div.fb-like {
+    text-align: left;
+
+}
+.twitter-follow-button{
+    float:left;
+    margin-left:5%;
+    margin-right:1%;
 }
 footer {
     background-color:darkgrey;
