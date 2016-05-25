@@ -48,6 +48,15 @@ p {
     line-height: 1.5;
     font-size:20px;
 }
+div.fb-like {
+    text-align: left;
+
+}
+.twitter-follow-button{
+    float:left;
+    margin-left:5%;
+    margin-right:1%;
+}
 footer {
     background-color:darkgrey;
     padding-top:100px;
