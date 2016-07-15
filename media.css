@@ -27,13 +27,14 @@ h2 {
     box-shadow: 5px 5px 5px grey;
 }
 
-div.btn-group {
+div.list-group {
     margin-left: 20%;
-    margin-top: 6%;
+    margin-top: 10%;
 }
 .tip-video{
     margin-left:25%;
     margin-bottom:5%;
+    margin-top:10%;
     position:relative;
 }
 div.list-group{
