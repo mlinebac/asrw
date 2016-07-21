@@ -41,8 +41,8 @@ div.btn-group {
 }
 
 div.about {
-    background-color:#4dff4d;
-    background: linear-gradient(#00ff00, #4dff4d);
+    background-color:#80bfff;
+    background: linear-gradient(#80bfff, #99ccff);
     margin-top:10%;
 }
 
@@ -58,6 +58,7 @@ p {
 }
 
 .twitter-timeline{
+    margin-top:5%;
     margin-left: 4%;
 }
     #media h2{
@@ -77,7 +78,7 @@ p {
 
 .fb-page {
     margin-left:5%;
-    margin-top:5%;
+    margin-top:10%;
 
 }
 .tip-video{
