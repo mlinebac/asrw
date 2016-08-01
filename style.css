@@ -18,7 +18,7 @@ div.container {
     font-family:fantasy;
     font-size: 110px;
     letter-spacing: 5px;
-    color: dimgrey;
+    color:dimgrey;
 }
 
 #header2 {
@@ -36,14 +36,15 @@ div.container {
 }
 
 div.btn-group {
-    margin-left: 20%;
+    margin-left: 25%;
     margin-top: 6%;
 }
 
 div.about {
-    background-color:#4dff4d;
-    background: linear-gradient(#00ff00, #4dff4d);
+    background-color:#80bfff;
+    background: linear-gradient(#80bfff, #99ccff);
     margin-top:10%;
+    box-shadow: 5px 5px 5px grey;
 }
 
 p {
@@ -58,6 +59,7 @@ p {
 }
 
 .twitter-timeline{
+    margin-top:5%;
     margin-left: 4%;
 }
     #media h2{
@@ -77,12 +79,12 @@ p {
 
 .fb-page {
     margin-left:5%;
-    margin-top:5%;
+    margin-top:10%;
 
 }
 .tip-video{
     margin-top:10%;
-    margin-left:22%;
+    margin-left:25%;
     margin-bottom:5%;
     position:relative;
 }
@@ -103,4 +105,11 @@ footer {
     margin-right:-15px;
     margin-top:10%;
     padding-bottom:10px;
+}
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
 }
