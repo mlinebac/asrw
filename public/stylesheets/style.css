@@ -3,10 +3,12 @@ body {
     background-size:contain;
 }
 
-div.container {
+div.container-fluid {
     background-color:antiquewhite;
     margin-bottom:15%;
     margin-top:8%;
+    margin-left:10%;
+    margin-right:10%;
     border-style: solid;
     box-shadow: 10px 10px 10px grey;
     border-width:0px ;
