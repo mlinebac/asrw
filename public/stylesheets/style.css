@@ -1,4 +1,4 @@
-body {
+body.container-fluid {
     background-color:cyan;
     background-size:contain;
 }
