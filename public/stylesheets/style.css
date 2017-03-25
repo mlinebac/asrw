@@ -21,6 +21,7 @@ div.container-fluid {
     font-size: 110px;
     letter-spacing: 5px;
     color:dimgrey;
+    
 }
 
 #header2 {
@@ -38,14 +39,15 @@ div.container-fluid {
 }
 
 div.btn-group {
-    margin-left: 25%;
+    position:relative;
     margin-top: 6%;
 }
 
 div.about {
     background-color:#80bfff;
-    background: linear-gradient(#80bfff, #99ccff);
+    opacity: 0.9;
     margin-top:10%;
+    margin-bottom:5%;
     box-shadow: 5px 5px 5px grey;
 }
 
@@ -61,7 +63,7 @@ p {
 }
 
 .twitter-timeline{
-    margin-top:5%;
+    margin-top:10%;
     margin-left: 4%;
 }
 
