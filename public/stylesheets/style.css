@@ -1,70 +1,37 @@
-body {
-    background-color:cyan;
-    background-size:contain;
+body{
+    background-color:#01b0bf;
 }
 
-div.container-fluid {
+#main{
     background-color:antiquewhite;
-    margin-bottom:15%;
-    margin-top:8%;
-    margin-left:10%;
-    margin-right:10%;
-    border-style: solid;
+    padding-top:2%;
+    margin-bottom:5%;
+    margin-right:5%;
     box-shadow: 10px 10px 10px grey;
-    border-width:0px ;
-}
-
-#header  {
-
-    text-align:center;
-    font-family:fantasy;
-    font-size: 110px;
-    letter-spacing: 5px;
-    color:dimgrey;
-    
-}
-
-#header2 {
-    margin-left: 10%;
-    text-align:center;
-    font-family:fantasy;
-    font-style: oblique;
-    color:dimgrey;
 }
 
 .img-rounded {
-    margin-top: -3%;
-    margin-left: 4%;
+    display: block;
+    margin: 0 auto;
     box-shadow: 5px 5px 5px grey;
-}
-
-div.btn-group {
-    position:relative;
-    margin-top: 6%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 div.about {
-    background-color:#80bfff;
+    background-color:#156b96;
     opacity: 0.9;
-    margin-top:10%;
-    margin-bottom:5%;
+   margin:5%;
     box-shadow: 5px 5px 5px grey;
 }
 
 p {
     width:100%;
-    padding-top:2%;
-    padding-bottom:2%;
-    padding-left: 2%;
-
+    text-align: center;
+    padding: 2%;
     color: white ;
     line-height: 1.5;
     font-size:20px;
-}
-
-.twitter-timeline{
-    margin-top:10%;
-    margin-left: 4%;
 }
 
 #media h2{
@@ -72,8 +39,20 @@ p {
     font-family:fantasy;
     font-style: oblique;
     color:dimgrey;
-    }
+}
 
+.twitter-timline{
+    margin-top:10%;
+}
+
+.fb-page {
+    margin-top:10%;
+}
+
+.tip-video{
+    display: block;
+    margin-top: 10%;
+}
 
 .twitter-follow-button{
     float:left;
@@ -81,36 +60,19 @@ p {
     margin-right:1%;
 }
 
-
-.fb-page {
-    margin-left:5%;
-    margin-top:10%;
-
-}
-.tip-video{
-    margin-top:10%;
-    margin-left:25%;
-    margin-bottom:5%;
-    position:relative;
-}
-
-div.list-group{
-    margin-top:10%;
-
-}
-
-div.fb-like {
+.fb-like {
     text-align: left;
+    margin-bottom:2%;
 
 }
+
 footer {
     background-color:darkgrey;
-    padding-top:100px;
-    margin-left:-15px;
-    margin-right:-15px;
-    margin-top:10%;
-    padding-bottom:10px;
+    padding-top:2%;
+    margin-top:5%;
+   
 }
+
 .back-to-top {
     cursor: pointer;
     position: fixed;
