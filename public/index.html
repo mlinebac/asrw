@@ -5,9 +5,9 @@
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -35,7 +35,7 @@
 
 <body>
     <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
+        <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
@@ -57,11 +57,11 @@
                 </div>
         </div>
     </nav>
-        <div class = "container-fluid">
+        <div class = "container">
             <div class = "row">
                 <div class = "col-xs-9">
                     <div id = "main">
-                    <img src="stylesheets/images/logo61648.jpg" class="img-rounded" width="404" height="300" >
+                    <img src="stylesheets/images/logo61648.jpg" class="img-responsive" width="404" height="300" >
                     <div class="about">
                         <p><b>OUR MISSON: </b>ASRW's mission is to improve the economic environment and human rights of restaurant workers in Asheville NC through awareness, advocacy and action.</p>
                         <p>The Asheville Sustainable Restaurant Workforce is a local worker founded, worker funded, advocacy group. We aim to improve the economic environment and human rights of restaurant workers in WNC through awareness, advocacy, and action. Although we don’t participate as one yet, we are a community. ASRW is an attempt at that noble goal- to become a community, to share empathy and use our voice as workers to seek representation and improved conditions. We are the foundation of Asheville’s hospitality economy and we deserve a seat at the table!</p>
@@ -87,6 +87,10 @@
                                 <a type="button" class="list-group-item list-group-item-info" href="https://mountainx.com/news/a-seat-at-the-table-alia-todd-and-asheville-sustainable-restaurant-workforce"><h4><img width=100px src = "stylesheets/images/Alia-2-1100x732.jpg" alt="Restaurant Workers: New face of the working class?">&emsp;A seat at the table: Alia Todd and Asheville Sustainable Restaurant Workforce </h4>Posted on March 14, 2015 by Max Hunt</a>
                         </div>
                     </div>
+                     <div class="tip-video">
+                         <h2>Information on Tipped Employees</h2>
+                        <iframe class = "tip-video" width="560" height="315" src="https://www.youtube.com/embed/DOtGIUtB3mo"></iframe>
+                        </div>   
                 </div>
                 <div class = col-xs-3>
                     <div id="wrapper">
@@ -100,14 +104,11 @@
                                 </blockquote>
                             </div>
                         </div>
-                        <div class="tip-video">
-                        <iframe class = "tip-video" width="560" height="315" src="https://www.youtube.com/embed/DOtGIUtB3mo"></iframe>
-                        </div>
                     </div> 
                 </div>
             </div>
         </div>
-           
+       
             
         <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span>
         </a>
@@ -131,11 +132,13 @@
                 $('#back-to-top').tooltip('show');
             });
         </script>
+        <div class = "container" id = "footer">
         <footer>
             <div class="fb-like" href="https://www.facebook.com/asrw.org/"  data-layout="standard" data-action="like" data-show-faces="true" data-share="true">
             </div>
             <a class="twitter-follow-button" href="https://twitter.com/avlworkers" data-show-count="false"> Follow @avlworkers</a>
             <script src="javascripts/twitter.js"</script>
         </footer>
+        </div>
     </body>
 </html>
