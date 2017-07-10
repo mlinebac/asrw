@@ -3,13 +3,21 @@ body{
     width: 100%;
 }
 
-#main{
+.main{
     background-color:antiquewhite;
     padding-top:2%;
     padding-bottom:2%;
     margin-bottom:5%;
     margin-right:5%;
     box-shadow: 10px 10px 10px grey;
+}
+.main h2{
+
+    text-align:center;
+    font-family:fantasy;
+    font-style: oblique;
+    color:dimgrey;
+    margin:5%;
 }
 
 .img-responsive {
@@ -20,14 +28,14 @@ body{
     margin-bottom: 5%;
 }
 
-div.about {
+.about {
     background-color:#156b96;
     opacity: 0.9;
     margin:5%;
     box-shadow: 5px 5px 5px grey;
 }
 
-p {
+.about p {
     width:100%;
     text-align: center;
     padding: 2%;
@@ -43,9 +51,11 @@ p {
     color:dimgrey;
     margin:5%;
 }
+
 #media a{
     margin-bottom:3%;
 }
+
 .twitter-timline{
     margin-top:10%;
 }
@@ -74,16 +84,20 @@ p {
 
 .fb-like {
     text-align: left;
-    margin-bottom:2%;
+    margin-bottom:1%;
 
 }
 
 #footer {
     background-color:darkgrey;
     padding-top:2%;
-    margin-top:5%;
+    margin-top:3%;
     width:100%;
-   
+}
+
+#footer p {
+    text-align:left;
+    font-size:small;
 }
 
 .back-to-top {
