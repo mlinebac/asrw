@@ -1,10 +1,12 @@
 body{
     background-color:#01b0bf;
+    width: 100%;
 }
 
 #main{
     background-color:antiquewhite;
     padding-top:2%;
+    padding-bottom:2%;
     margin-bottom:5%;
     margin-right:5%;
     box-shadow: 10px 10px 10px grey;
@@ -21,7 +23,7 @@ body{
 div.about {
     background-color:#156b96;
     opacity: 0.9;
-   margin:5%;
+    margin:5%;
     box-shadow: 5px 5px 5px grey;
 }
 
@@ -39,8 +41,11 @@ p {
     font-family:fantasy;
     font-style: oblique;
     color:dimgrey;
+    margin:5%;
 }
-
+#media a{
+    margin-bottom:3%;
+}
 .twitter-timline{
     margin-top:10%;
 }
@@ -49,9 +54,16 @@ p {
     margin-top:10%;
 }
 
-.tip-video{
-    display: block;
-    margin-top: 10%;
+.tip-video h2{
+    text-align: center;
+    font-family:fantasy;
+    font-style: oblique;
+    color:dimgrey;
+    margin-top:5%;
+}
+
+#tip-video{
+    margin:5%;
 }
 
 .twitter-follow-button{
