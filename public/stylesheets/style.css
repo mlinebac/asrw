@@ -3,6 +3,10 @@ body{
     width: 100%;
 }
 
+.navbar navbar-inverse{
+    width: 100%;
+}
+
 .main{
     background-color:lightgrey;
     padding-top:2%;
@@ -11,12 +15,13 @@ body{
     margin-right:5%;
     box-shadow: 10px 10px 10px grey;
 }
+
 .main h1{
 
     text-align:center;
     font-family:fantasy;
     font-style: oblique;
-    color:darkgrey;
+    color:#363738;
     margin:5%;
 }
 
@@ -42,12 +47,14 @@ body{
     line-height: 1.5;
     font-size:20px;
 }
-
+#media {
+margin:5%;
+}
 #media h2{
     text-align:center;
     font-family:fantasy;
     font-style: oblique;
-    color:dimgrey;
+    color:#363738;
     margin:5%;
 }
 
@@ -67,7 +74,7 @@ body{
     text-align: center;
     font-family:fantasy;
     font-style: oblique;
-    color:dimgrey;
+    color:#363738;
     margin-top:5%;
 }
 
