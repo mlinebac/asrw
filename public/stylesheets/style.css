@@ -1,10 +1,27 @@
 body{
     background-color:#01b0bf;
     width: 100%;
+
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
 }
 
 .navbar navbar-inverse{
     width: 100%;
+}
+
+.aside{
+    width: 20vw;
+
+}
+@media screen and (max-width: 480px){
+    .aside{
+        display:none;
+    }
 }
 
 .main{
@@ -14,10 +31,10 @@ body{
     margin-bottom:5%;
     margin-right:5%;
     box-shadow: 10px 10px 10px grey;
+    flex: 1;
 }
 
 .main h1{
-
     text-align:center;
     font-family:fantasy;
     font-style: oblique;
@@ -47,9 +64,11 @@ body{
     line-height: 1.5;
     font-size:20px;
 }
+
 #media {
-margin:5%;
+    margin:5%;
 }
+
 #media h2{
     text-align:center;
     font-family:fantasy;
@@ -82,26 +101,32 @@ margin:5%;
     margin:5%;
 }
 
+.social{
+    margin: 5%;
+}
+
 .twitter-follow-button{
     float:left;
     margin-left:5%;
     margin-right:1%;
+    margin-bottom:10%;
 }
 
 .fb-like {
     text-align: left;
     margin-bottom:1%;
+    margin-left:5%;
 
 }
 
-#footer {
+footer {
     background-color:darkgrey;
     padding-top:2%;
     margin-top:3%;
     width:100%;
 }
 
-#footer p {
+footer p {
     text-align:left;
     font-size:small;
 }
