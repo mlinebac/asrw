@@ -1,9 +1,9 @@
 body{
     background-color:#01b0bf;
-    width: 100%;
-
 }
-
+.container-fluid{
+    width: 100%;
+}
 .container {
     display: flex;
     width: 100%;
