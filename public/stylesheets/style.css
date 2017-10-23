@@ -29,8 +29,8 @@ body{
 
 div.title{
     margin: 5%;
-    background-color: yellow;
-    opacity: 0.6;
+    background-color:#ffd700;
+    opacity: 0.8;
 
 }
 
@@ -71,22 +71,42 @@ div.title h1{
     font-size:20px;
 }
 
-#media {
-    margin:5%;
+.media {
+    margin-top:5%;
+    margin-left:5%;
+    margin-right:5%;
+    background-color:gold;
+    opacity:0.8;
 }
 
-#media h2{
+.media h2{
     text-align:center;
-    font-family:fantasy;
+    font-family:SansSerif;
     font-style: oblique;
-    color:#363738;
-    margin:5%;
+    font-weight: bold;
+    color:black;
+    margin: 3% 5%;
+    padding-top:0%;
 }
 
-#media a{
-    margin-bottom:3%;
+.media-left{
+    background-color:#156b96;
 }
 
+.media-body{
+    background-color:#156b96;
+    padding:2%;
+
+}
+.list-group-item {
+    background-color:gold;
+}
+.media-heading{
+    color:white;
+}
+.media p{
+    color:white;
+}
 .twitter-timline{
     margin-top:10%;
 }
