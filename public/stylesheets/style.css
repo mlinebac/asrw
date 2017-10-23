@@ -28,9 +28,7 @@ body{
 }
 
 div.title{
-    margin: 5%;
-    background-color:#ffd700;
-    opacity: 0.8;
+    background-color:goldenrod;
 
 }
 
@@ -71,12 +69,13 @@ div.title h1{
     font-size:20px;
 }
 
-.media {
-    margin-top:5%;
-    margin-left:5%;
-    margin-right:5%;
-    background-color:gold;
-    opacity:0.8;
+
+div.media-title{
+    background-color:goldenrod;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin-bottom:3%;
+
 }
 
 .media h2{
@@ -85,8 +84,6 @@ div.title h1{
     font-style: oblique;
     font-weight: bold;
     color:black;
-    margin: 3% 5%;
-    padding-top:0%;
 }
 
 .media-left{
@@ -98,8 +95,11 @@ div.title h1{
     padding:2%;
 
 }
+
 .list-group-item {
-    background-color:gold;
+    background-color:goldenrod;
+    margin-left:5%;
+    margin-right:5%;
 }
 .media-heading{
     color:white;
